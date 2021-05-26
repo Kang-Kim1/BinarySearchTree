@@ -4,7 +4,7 @@
 - 용어
   * Node - 데이터를 저장하는 요소 
   * Root Node - 최상단 Node
-  * Level - Root node로 부터의 노드 깊이
+  * Level - Root node(Level 0)로 부터의 노드 깊이
   * Parent Node - 바로 상위 Level 노드
   * Child Node - 바로 하위 Level 노드
   * Sibling Node - 동일한 Parent & Level에 위치한 노드
