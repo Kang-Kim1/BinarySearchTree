@@ -9,4 +9,4 @@
   * Child Node - 바로 하위 Level 노드
   * Sibling Node - 동일한 Parent & Level에 위치한 노드
   * Leaf Node - Child가 없는 Node
-  * Depth - 총 깊이
+  * Depth - Tree의 최대 Level
