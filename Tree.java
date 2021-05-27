@@ -47,4 +47,22 @@ public class Tree {
 		}
 		return true;
 	}
+	public Node search(int data) {
+		if (this.head == null) {
+			return null;
+		} else {
+			Node ptrNode = this.head;
+
+			while (ptrNode != null) {
+				if (ptrNode.data == data) {
+					return ptrNode;
+				} else if (data < ptrNode.data) {
+					ptrNode = ptrNode.left;
+				} else {
+					ptrNode = ptrNode.right;
+				}
+			}
+		}
+		return null;
+	}
 }
