@@ -1,7 +1,7 @@
 public class BinarySearchTree {
 	Node head;
 
-	public Tree() {
+	public BinarySearchTree() {
 		this.head = null;
 	}
 
