@@ -1,4 +1,4 @@
-public class Tree {
+public class BinarySearchTree {
 	Node head;
 
 	public Tree() {
